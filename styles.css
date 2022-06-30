@@ -6,31 +6,52 @@ h1 {
 }
 .data {
     background-color: blue;
-    width:100px;
-    height:100px;
+}
+.data:hover{
+    background-color:yellow;
 }
 .education {
     background-color:aqua;
-    width:200px;
-    height:300px;
     margin-left:400px;
+}
+.education:hover{
+    background-color:orange;
 }
 .photo{
     background-color:crimson;
-    width:200px;
-    height:300px;
-    position:top-left;
     margin-left:800px;
     margin-top: 600px;
 }
+.photo:hover{
+    background-color:royalblue;
+}
 .hobbies{
     background-color:darkmagenta;
-    width:200px;
-    height:300px;
-    position:bottom-left;
+    margin-top:300px;
+}
+.hobbies:hover{
+    background-color:brown;
 }
 .contact{
     background-color:forestgreen;
-    width:200px;
+    margin-left:800px;
+    margin-top:-300px;
+}
+.contact:hover{
+    background-color:green;
+}
+p{
+    display:inline-block;
+}
+a{
+    display:block;
+    width:400px;
     height:300px;
+}
+div{
+    width:400px;
+    height:300px;
+    line-height:300px;
+    text-align:center;
+}
 }
