@@ -1,0 +1,36 @@
+body{
+    margin : 0;
+}
+h1 {
+    margin-top : 0;
+}
+.data {
+    background-color: blue;
+    width:100px;
+    height:100px;
+}
+.education {
+    background-color:aqua;
+    width:200px;
+    height:300px;
+    margin-left:400px;
+}
+.photo{
+    background-color:crimson;
+    width:200px;
+    height:300px;
+    position:top-left;
+    margin-left:800px;
+    margin-top: 600px;
+}
+.hobbies{
+    background-color:darkmagenta;
+    width:200px;
+    height:300px;
+    position:bottom-left;
+}
+.contact{
+    background-color:forestgreen;
+    width:200px;
+    height:300px;
+}
